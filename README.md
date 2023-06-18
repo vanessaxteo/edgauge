@@ -25,7 +25,8 @@ We begin by utilizing the cv2 libraries to enable an instance of webcam access t
 
 ### 2. Active Contextualization
 
-EdGauge intelligently leverages the sentiment analysis information from Hume API by storing percentages of emotions to best understand overall climate. Given this information, it then creates a unique & relevant request to OpenAI's GPT-4 API.
+EdGauge intelligently leverages the sentiment analysis information from Hume API by storing percentages of emotions to best understand overall climate. Given this information, it then creates a unique & relevant request to OpenAI's GPT-4 API. Here's an example of Hume's API.
+![Alt text](image.png)
 
 ### 3. Filtering-Based Recommendation
 
