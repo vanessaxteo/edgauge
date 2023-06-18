@@ -17,7 +17,6 @@ OPENAI_API_KEY = "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"
 HUME_API_KEY = "T46iFimyuk6sPJqfdWz3thRyo3U3y5RbfH1H5T16FETzF5va"
 HUME_FACE_FPS = 1 / 2  # 2 FPS
 TEMP_FILE = 'temp.jpg'
-TEMP_WAV_FILE = 'temp.wav'
 THRESHOLD = 0.6
 # Webcam setup
 cam = cv2.VideoCapture(0)
@@ -95,7 +94,7 @@ async def webcam_loop():
                         prompt += prompt_part_2
                         
                         print("prompt1: ", prompt)
-                        prompt_response = get_completion_fast(prompt)
+                        prompt_response = get_completion_fast(prompt, OPENAI_API_KEY=OPENAI_API_KEY)
                         await asyncio.sleep(1 / 3)
                         print("prompt_response", prompt_response)
                         responses += prompt_response
@@ -112,7 +111,7 @@ async def webcam_loop():
                         this idea surrounding {planned_subjects[0]} using one bullet point per step to take to show my students this example within 5 minutes.
                         """
                         print("prompt2:", option_selection_prompt)
-                        option_selection_response = get_completion_fast(option_selection_prompt)
+                        option_selection_response = get_completion_fast(option_selection_prompt, OPENAI_API_KEY=OPENAI_API_KEY)
                         await asyncio.sleep(1 / 3)
                         print("option_selection_response", option_selection_response)
                         responses = option_selection_response
