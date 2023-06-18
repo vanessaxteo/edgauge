@@ -8,7 +8,11 @@ As Teaching Assistants here at UC Berkeley, it's quite common to see a classroom
 EdGauge serves to **provide a third eye for educators**, making teaching more engaging.  
 
 ## What EdGauge does (features)  
-Essentially, EdGauge uses WHAT (computer vision? nlp? explain what hume uses lol) to identify students' emotions in order to provide instant feedback and advice for educators.   
+Essentially, EdGauge uses WHAT (computer vision? nlp? explain what hume uses lol) to identify students' emotions in order to provide instant feedback and advice for educators. 
+
+As an educator records their students in a classroom, EdGauge keeps track of the average emotions of all students. Through the press of a button, once a boredom percentage threshold is exceeded, or through a set time limit, EdGauge provides feedback on the average negative emotions and how to improve them. Then, EdGauge includes potential solutions to improve teaching experience, such as including real-life examples, incorporating hands-on activities, using virtual aids, and more. Educators can then select the teaching option they would like to utilize and gain step-by-step walkthroughs of the examples with solutions and potential followup questions.
+
+For example, let's say Vanessa is teaching a discussion section on left-leaning red-black trees for her data structures class. Ten minutes into the discussion, 60% of her students are tracked to be bored. EdGauge sends Vanessa a notification that her students are looking quite bored, and she wants to fix this because she is truly passionate about the topic. To do so, she asks EdGauge provide solutions to improving engagememt. EdGauge offers the option to use real-life examples, incorporate hands-on activities, use virtual aids, and gamify the learning experience. Vanessa selects the option of incorportating hands-on activities, and EdGauge provides her with a step-by-step breakdown of a hands-on activity starting from dividing students into individual groups to asking groups to present their creations.
 
 **Target audience:** Educators, for any age and on any subject, to improve student engagement and boost learning experiences.
 
