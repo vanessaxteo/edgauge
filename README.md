@@ -1,14 +1,13 @@
-# CalHacks Summer 2023 AI/LLM Hackathon!
+# CalHacks Summer 2023 Devpost!
 
 ## Inspiration  
-Have you ever been teaching a class and all of your students look like this? ![bored students](bored_students2.jpg)  
-As a Teaching Assistant, it's quite common to see a classroom full of uninterested students, but it is also difficult to add activities or pose questions to re-engage your students on the splot.  
+Have you ever been teaching a class and all of your students look like they're fighting for their lives to stay awake?
 
-Additionally, it's difficult to gauge exactly how your students are feeling at all times, especially when teaching online, and see how your students are reacting to different your pedagogical styles.   
+As a Teaching Assistant, it's quite common to see a classroom full of uninterested students, but it is also difficult to add activities or pose questions on the spot to re-engage your students. Additionally, it's often difficult to gauge exactly how your students are feeling at certain times and see how your students are reacting to different pedagogical styles, especially when teaching online.   
 
-NAME serves to SIMPLE PHRASE.  
+EdGauge serves to provide a third eye for educators, making teaching more engaging.  
 
-## What NAME does  
+## What EdGauge does  
 we used Hume's API for blahblah, we did this, lol slay  
 
 ## What we did
@@ -19,4 +18,4 @@ we used Hume's API for blahblah, we did this, lol slay
 
 ## What we learned  
 
-## What's next for NAME
+## What's next for EdGauge
