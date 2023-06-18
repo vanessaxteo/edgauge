@@ -21,15 +21,15 @@ For example, let's say Vanessa is teaching a discussion section on left-leaning 
 ## How we built it
 ### 1. Video & Data Streaming
 
-We begin by utilizing the cv2 libraries to enable an instance of webcam access to live stream the video input of the teacher's students in the classroom.
+We begin by utilizing the cv2 libraries to enable an instance of webcam access to live-stream the video input of the teacher's students in the classroom. This detects students' faces and begins keeping track of how they are changing. We enabled asyncio for the app to constantly seek new frames of video for analysis.
 
 ### 2. Active Contextualization
 
-EdGauge intelligently leverages the sentiment analysis information from Hume API and creates a unique & relevant request to OpenAI's GPT-4 API.
+EdGauge intelligently leverages the sentiment analysis information from Hume API by storing percentages of emotions to best understand overall climate. Given this information, it then creates a unique & relevant request to OpenAI's GPT-4 API.
 
 ### 3. Filtering-Based Recommendation
 
-We expose all of our LLM capabilities and recommendation system by displaying our suggestions for the teacher in a simple, educator-frien
+We present all of our LLM capabilities and recommendation system to the teacher by displaying our suggestions in a simple, educator-friendly way. Having an easy to use platform is important in education, which is why our design minimizes the number of buttons and miscellaneous components for one to use.
 
 ## What we're proud of
 This was our first hackathon for 3/4 members of our team! From spending hours brainstorming open-ended solutions to our everyday inconveniences to attending workshops and learning about successful, like-minded startups, this hackathon has been an incredible, invaluable learning experience for all of us.  
