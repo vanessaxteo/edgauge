@@ -1,0 +1,11 @@
+whispercpp
+openai
+pynput
+playsound
+pvrecorder
+numpy
+gTTS
+opencv-python
+hume
+hume[stream]
+colorama
