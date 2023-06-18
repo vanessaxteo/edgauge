@@ -9,20 +9,23 @@ from terminal_gpt import get_completion, get_completion_fast
 OPENAI_API_KEY = "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"
 
 responses = ''
-percentage = '70'
+percentage = '73.13'
 subject = 'left leaning red black trees'
-emotion = 'bored'
-prompt1 = f'In this moment, I am a teacher and {percentage}% of my students are \
-{emotion} while I am teaching {subject} right now. \
-Can you give me advice to make my students feel like they should \
-pay attention more and engage them more within the next 2 minutes? \
-What other teaching methods can I use to immediately improve classroom \
-engagement in this topic? Please list 4 multiple choice options using 1, 2, 3, and 4 with \
-examples and breakdowns of each of the examples in 5 bullet points'
+emotion = 'Boredom'
+prompt1 = f"""
+In this moment, I am a teacher, and {percentage}% of my students are experiencing the emotion of
+{emotion} while I am teaching {subject} right now.
+Can you give me advice to make my students feel like they should
+pay attention more and engage them more within the next 2 minutes?
+What other teaching methods can I use to immediately improve classroom
+engagement in this topic? Please list 4 multiple choice options using 1, 2, 3, and 4 with
+examples and breakdowns of each of the examples in 5 bullet points
+"""
 print("prompt1", prompt1)
 prompt1_response = get_completion_fast(prompt1, OPENAI_API_KEY=OPENAI_API_KEY)
 print("prompt1_response", prompt1_response)
-responses += prompt1_response
+responses = prompt1_response
+
 option = '2'
 prompt2 = f'given the options {responses}, let us say that I want to use option {option}. \
 give me an example of this idea and thoroughly explain the steps for me to execute \
